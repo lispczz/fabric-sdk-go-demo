@@ -1,0 +1,13 @@
+diff --git a/test-network/configtx/configtx.yaml b/test-network/configtx/configtx.yaml
+index d280ccb..8ef8dc6 100644
+--- a/test-network/configtx/configtx.yaml
++++ b/test-network/configtx/configtx.yaml
+@@ -167,7 +167,7 @@ Capabilities:
+         # not able to participate in channels at v2.0 application capability.
+         # Prior to enabling V2.0 application capabilities, ensure that all
+         # peers on channel are at v2.0.0 or later.
+-        V2_0: true
++        V2_0: false
+ 
+ ################################################################################
+ #
